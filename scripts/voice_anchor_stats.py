@@ -103,7 +103,7 @@ def main():
     ap.add_argument('--self', dest='self_words', default='我',
                     help='自称候选，逗号分隔（默认 我）')
     ap.add_argument('--you', dest='you_words', default='你',
-                    help='第二人称候选，逗号分隔（默认「你」；按你的语料给，如「你,您,阁下」）')
+                    help='第二人称候选，逗号分隔（默认「你」；按你的语料给，如「你,您,您老」）')
     ap.add_argument('--feel', dest='feel_words', default=','.join(DEFAULT_FEEL))
     ap.add_argument('--extra', action='append', default=[],
                     help='额外的非场景锚料文件（信件／贺图原话），单独统计；可多次')
