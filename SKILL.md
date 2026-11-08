@@ -1,7 +1,7 @@
 ---
 name: character-voice-simulation
 tier: T2  # T分级: T2=直接做 / T1=先请示 / T0=一律拒
-description: 让角色开口、或给无名文本认说话人时用——声线锚点表双向用：分队推演（隔离上下文→逐句标依据）＋反向反查（口癖/物件/场景/称呼）。
+description: 让角色开口、或给无名文本认说话人时用——声线锚点表双向用（分队推演＋反向反查）。
 tags: [roleplay, delegate_task, creative-writing, archive-discipline]
 related_skills: [sillytavern-cards]
 ---
